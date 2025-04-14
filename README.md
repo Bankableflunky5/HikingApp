@@ -51,4 +51,4 @@ pip install matplotlib
 ```bash
 python Hiking.py
 ```
-I built this to help me figure out how to lighten my hiking pack. I wanted a way to actually see where the weight was going and make smarter choices—this app is how I did that.
+I built this to help me figure out how to lighten my hiking pack. I wanted a way to actually see where the weight was going and make smarter choices—this app is how I did that. I hope that it can help you too!
