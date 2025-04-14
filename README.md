@@ -1,7 +1,7 @@
-*🥾 Hiking Gear Manager
+# 🥾 Hiking Gear Manager
 Hiking Gear Manager is a desktop application built with Python and Tkinter to help outdoor enthusiasts organize, track, and visualize their hiking gear. It provides features like gear management, weight tracking, checklist creation, CSV export, and data visualization using SQLite and Matplotlib.
 
-📦 Features
+## 📦 Features
 ✅ Add / Edit / Remove Gear Items
 
 🔍 Search Gear by Name, Category, or Quantity
@@ -20,7 +20,7 @@ Hiking Gear Manager is a desktop application built with Python and Tkinter to he
 
 🔄 Sortable Gear Table (by weight)
 
-🖥️ Interface Overview
+## 🖥️ Interface Overview
 Top Menus: File, Sort, Bodyweight, Export, Visualizations, Checklist.
 
 Gear Table: Displays all items with columns for ID, Category, Name, Quantity, and Weight.
@@ -29,3 +29,25 @@ Action Buttons: Add, Remove, Edit, Search.
 
 Dynamic Label: Shows total gear weight (and max allowed weight if bodyweight is entered).
 
+## 📁 File Structure
+```bash
+project/
+├── main.py             # Main script (contains HikingGearManager class)
+├── config.txt          # Stores last-used database path
+└── *.db                # Your SQLite database(s)
+```
+## 🔧 Installation & Setup
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/hiking-gear-manager.git
+cd hiking-gear-manager
+```
+### 2. Install Required Packages
+```bash
+pip install matplotlib
+```
+
+### 3. Run the App
+```bash
+python Hiking.py
+```
