@@ -39,8 +39,8 @@ project/
 ## 🔧 Installation & Setup
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/hiking-gear-manager.git
-cd hiking-gear-manager
+git clone https://github.com/Bankableflunky5/HikingApp.git
+cd HikingApp
 ```
 ### 2. Install Required Packages
 ```bash
